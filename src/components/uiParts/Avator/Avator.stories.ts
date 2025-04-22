@@ -28,7 +28,7 @@ const meta: Meta<typeof Avator> = {
   },
   args: {
     // 各StoryのデフォルトArgs
-    src: "https://via.placeholder.com/150", // デフォルトの画像URL（プレースホルダー）
+    src: "https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156_1280.jpg", // デフォルトの画像URL（プレースホルダー）
     alt: "ユーザーアバター", // デフォルト代替テキスト
     size: "medium", // デフォルトサイズ
     // 形状（circle, squareなど）は AvatorProps に含まれていないため、Argsでは制御しない
