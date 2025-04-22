@@ -1,0 +1,21 @@
+/* Avator Base Style */
+.storybook-avator {
+  display: inline-block; /* インライン要素として扱い */
+  object-fit: cover; /* 画像の表示方法 */
+  border-radius: 50%; /* 円形 */
+}
+/* Size Styles */
+.storybook-avator--small {
+  width: 24px; /* small サイズの例 */
+  height: 24px;
+}
+
+.storybook-avator--medium {
+  width: 40px; /* medium サイズの例 */
+  height: 40px;
+}
+
+.storybook-avator--large {
+  width: 64px; /* large サイズの例 */
+  height: 64px;
+}
