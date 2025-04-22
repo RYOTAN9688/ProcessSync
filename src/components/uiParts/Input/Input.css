@@ -1,0 +1,30 @@
+/* Input Base Style */
+.storybook-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%; /* デフォルトで親要素の幅に合わせる */
+  box-sizing: border-box; /* paddingとborderを幅に含める */
+  transition: border-color 0.2s ease;
+}
+
+.storybook-input:focus {
+  outline: none;
+  border-color: #007bff; /* フォーカス時の色 */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* フォーカス時のシャドウ */
+}
+
+.storybook-input--disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+
+.storybook-input--error {
+  border-color: #dc3545; /* エラー時の色 */
+}
+
+.storybook-input--error:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
