@@ -28,7 +28,7 @@ const meta: Meta<typeof Avator> = {
   },
   args: {
     // 各StoryのデフォルトArgs
-    src: "https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156_1280.jpg", // デフォルトの画像URL（プレースホルダー）
+    src: "https://cdn.pixabay.com/photo/2016/11/29/03/36/woman-1867093_640.jpg", // デフォルトの画像URL（プレースホルダー）
     alt: "ユーザーアバター", // デフォルト代替テキスト
     size: "medium", // デフォルトサイズ
     // 形状（circle, squareなど）は AvatorProps に含まれていないため、Argsでは制御しない
@@ -44,7 +44,7 @@ type Story = StoryObj<AvatorProps>;
 // 各サイズのStory
 export const Small: Story = {
   args: {
-    src: "https://via.placeholder.com/150/007bff/ffffff?text=S",
+    src: "https://cdn.pixabay.com/photo/2016/11/29/03/36/woman-1867093_640.jpg",
     alt: "Small Avator",
     size: "small",
   },
@@ -52,7 +52,7 @@ export const Small: Story = {
 
 export const Medium: Story = {
   args: {
-    src: "https://via.placeholder.com/150/28a745/ffffff?text=M",
+    src: "https://cdn.pixabay.com/photo/2016/11/29/03/36/woman-1867093_640.jpg",
     alt: "Medium Avator",
     size: "medium",
   },
@@ -60,25 +60,11 @@ export const Medium: Story = {
 
 export const Large: Story = {
   args: {
-    src: "https://via.placeholder.com/150/dc3545/ffffff?text=L",
+    src: "https://cdn.pixabay.com/photo/2016/11/29/03/36/woman-1867093_640.jpg",
     alt: "Large Avator",
     size: "large",
   },
 };
-
-// 形状のStory (提供されたAvatorPropsには形状がないため、Argsでは制御できない)
-// 例として、形状クラスを直接渡す方法を示すが、AvatorPropsにshapeがない場合はArgTypesで制御できない
-/*
-export const Circle: Story = {
-    args: {
-        src: 'https://via.placeholder.com/150/6c757d/ffffff?text=C',
-        alt: 'Circle Avator',
-        size: 'medium',
-        // shape プロパティがないため Args で制御できない
-        // className: 'storybook-avator--circle', // またはこのようにCSSクラスを直接渡す
-    },
-};
-*/
 
 export const WithBrokenImage: Story = {
   args: {
