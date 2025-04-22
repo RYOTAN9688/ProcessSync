@@ -1,0 +1,48 @@
+/* ProgressBar Base Style (コンテナ) */
+.storybook-progress-bar {
+  width: 100%; /* デフォルトで親要素の幅に合わせる */
+  background-color: #e9ecef; /* バーの背景色（トラック） */
+  border-radius: 4px;
+  overflow: hidden; /* バーが角丸の外に出ないように */
+  position: relative; /* テキスト位置調整用 */
+
+  /* 高さ（height）は高さクラスで定義 */
+}
+
+/* ProgressBar バー部分 */
+.storybook-progress-bar__bar {
+  height: 100%; /* 親要素の高さに合わせる */
+  /* 幅（width）はインラインスタイルで適用 */
+  /* 色はCSS変数を使って定義 */
+  background-color: var(
+    --progress-bar-color,
+    #007bff
+  ); /* --progress-bar-color が未定義の場合は #007bff */
+  transition: width 0.4s ease; /* 進捗率変更時のアニメーション */
+  border-radius: 4px; /* 親要素の角丸に合わせる */
+}
+
+/* 進捗率テキスト */
+.storybook-progress-bar__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.75rem;
+  color: #333; /* テキスト色 */
+  text-shadow: 0 0 2px white; /* バーの色によっては見えにくいので影 */
+  /* テキストの色やサイズは必要に応じてPropsで制御するか、CSSで調整 */
+}
+
+/* Height Styles */
+.storybook-progress-bar--height-small {
+  height: 4px;
+}
+
+.storybook-progress-bar--height-medium {
+  height: 8px;
+}
+
+.storybook-progress-bar--height-large {
+  height: 12px;
+}
