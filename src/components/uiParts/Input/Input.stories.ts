@@ -5,7 +5,7 @@ import { Input, InputProps } from "./Input"; // コンポーネントとProps型
 
 // Storybookでのコンポーネントメタデータ定義
 const meta: Meta<typeof Input> = {
-  title: "Atoms/Input", // Storybookのサイドバーでの表示名と階層
+  title: "uiParts/Input", // Storybookのサイドバーでの表示名と階層
   component: Input, // 対象となるコンポーネント
   tags: ["autodocs"], // ドキュメントを自動生成
   argTypes: {

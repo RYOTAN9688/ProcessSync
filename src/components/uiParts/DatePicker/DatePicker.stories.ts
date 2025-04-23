@@ -5,7 +5,7 @@ import { DatePicker, DatePickerProps } from "./DatePicker"; // コンポーネ�
 
 // Storybookでのコンポーネントメタデータ定義
 const meta: Meta<typeof DatePicker> = {
-  title: "Atoms/DatePicker", // Storybookのサイドバーでの表示名と階層
+  title: "uiparts/DatePicker", // Storybookのサイドバーでの表示名と階層
   component: DatePicker, // 対象となるコンポーネント
   tags: ["autodocs"], // ドキュメントを自動生成
   argTypes: {

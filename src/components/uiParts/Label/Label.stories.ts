@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { Label, LabelProps } from "./Label"; // コンポーネントとProps型をインポート
 // Storybookでのコンポーネントメタデータ定義
 const meta: Meta<typeof Label> = {
-  title: "Atoms/Label", // Storybookのサイドバーでの表示名と階層
+  title: "uiParts/Label", // Storybookのサイドバーでの表示名と階層
   component: Label, // 対象となるコンポーネント
   tags: ["autodocs"], // ドキュメントを自動生成
   argTypes: {

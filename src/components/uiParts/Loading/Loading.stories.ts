@@ -4,7 +4,7 @@ import { Loading, LoadingProps } from "./Loading"; // コンポーネントとPr
 
 // Storybookでのコンポーネントメタデータ定義
 const meta: Meta<typeof Loading> = {
-  title: "Atoms/Loading", // Storybookのサイドバーでの表示名と階層
+  title: "uiParts/Loading", // Storybookのサイドバーでの表示名と階層
   component: Loading, // 対象となるコンポーネント
   tags: ["autodocs"], // ドキュメントを自動生成
   argTypes: {

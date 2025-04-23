@@ -7,7 +7,7 @@ import { Avator, AvatorProps } from "./Avator";
 // Storybookでのコンポーネントメタデータ定義
 // タイトルも Avator に注意
 const meta: Meta<typeof Avator> = {
-  title: "Atoms/Avator", // Storybookのサイドバーでの表示名と階層
+  title: "uiParts/Avator", // Storybookのサイドバーでの表示名と階層
   component: Avator, // 対象となるコンポーネント
   tags: ["autodocs"], // ドキュメントを自動生成
   argTypes: {

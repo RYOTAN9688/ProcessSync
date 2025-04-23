@@ -4,7 +4,7 @@ import { ProgressBar, ProgressBarProps } from "./ProgressBar"; // コンポー�
 
 // Storybookでのコンポーネントメタデータ定義
 const meta: Meta<typeof ProgressBar> = {
-  title: "Atoms/ProgressBar", // Storybookのサイドバーでの表示名と階層
+  title: "uiParts/ProgressBar", // Storybookのサイドバーでの表示名と階層
   component: ProgressBar, // 対象となるコンポーネント
   tags: ["autodocs"], // ドキュメントを自動生成
   argTypes: {
