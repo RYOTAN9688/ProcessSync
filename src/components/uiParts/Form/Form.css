@@ -1,16 +1,8 @@
 .storybook-form {
-  width: 100%;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 600px;
-  max-height: 600px;
-  margin: 0 auto;
-}
-
-.storybook-form .storbook-button {
-  margin-top: 8px;
 }

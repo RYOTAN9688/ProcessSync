@@ -57,7 +57,7 @@ export const Default: Story = {
     </Form>
   ),
   parameters: {
-    layout: "centered",
+    layout: "padded",
   },
 };
 // エラーメッセージ付きフォームの例
@@ -97,6 +97,6 @@ export const WithErrors: Story = {
     </Form>
   ),
   parameters: {
-    layout: "centered",
+    layout: "padded",
   },
 };
