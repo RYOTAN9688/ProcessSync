@@ -1,0 +1,47 @@
+/* Text Base Style */
+.storybook-text {
+  /* デフォルトスタイルは必要に応じて */
+  /* 色はCSS変数またはカラークラスで定義 */
+  color: var(
+    --text-color,
+    inherit
+  ); /* CSS変数が指定されていれば使用、なければ親要素から継承 */
+  /* サイズはサイズクラスで定義 */
+}
+
+/* Color Styles (事前定義されたカラーバリエーション) */
+.storybook-text--color-default {
+  color: #333;
+}
+.storybook-text--color-primary {
+  color: #007bff;
+}
+.storybook-text--color-secondary {
+  color: #6c757d;
+}
+.storybook-text--color-success {
+  color: #28a745;
+}
+.storybook-text--color-danger {
+  color: #dc3545;
+}
+
+/* Size Styles */
+.storybook-text--small {
+  font-size: 0.875rem;
+}
+.storybook-text--medium {
+  font-size: 1rem;
+}
+.storybook-text--large {
+  font-size: 1.125rem;
+}
+
+/* Font Styles */
+.storybook-text--bold {
+  font-weight: bold;
+}
+
+.storybook-text--italic {
+  font-style: italic;
+}
