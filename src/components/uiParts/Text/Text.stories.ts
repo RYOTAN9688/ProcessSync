@@ -5,7 +5,7 @@ import { Text, TextProps } from "./Text"; // コンポーネントとProps型を
 // Storybookでのコンポーネントメタデータ定義
 // タイトルに uiParts/ が追加されます
 const meta: Meta<typeof Text> = {
-  title: "uiParts/Atoms/Text", // Storybookのサイドバーでの表示名と階層
+  title: "uiParts/Text", // Storybookのサイドバーでの表示名と階層
   component: Text, // 対象となるコンポーネント
   tags: ["autodocs"], // ドキュメントを自動生成
   argTypes: {

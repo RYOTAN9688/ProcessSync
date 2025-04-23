@@ -6,7 +6,7 @@ import { FormField, FormFieldProps } from "./FormField"; // コンポーネン�
 // Storybookでのコンポーネントメタデータ定義
 // タイトルに uiParts/ が追加されます
 const meta: Meta<typeof FormField> = {
-  title: "uiParts/Molecules/FormField", // Storybookのサイドバーでの表示名と階層
+  title: "uiParts/FormField", // Storybookのサイドバーでの表示名と階層
   component: FormField, // 対象となるコンポーネント
   tags: ["autodocs"], // ドキュメントを自動生成
   argTypes: {

@@ -11,6 +11,7 @@ export interface ButtonProps {
   label: string;
   /** Optional click handler */
   onClick?: () => void;
+  type?: "button" | "submit" | "reset" | undefined;
 }
 
 /** Primary UI component for user interaction */
