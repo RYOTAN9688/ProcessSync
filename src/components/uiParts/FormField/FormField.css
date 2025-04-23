@@ -1,0 +1,10 @@
+/* FormField Base Style */
+.storybook-form-field {
+  margin-bottom: 16px; /* 各フォームフィールドの下部に余白 */
+}
+
+/* エラーメッセージのスタイル */
+.storybook-form-field__error-message {
+  margin-top: 4px;
+  display: block;
+}
